@@ -1,0 +1,26 @@
+{
+  "name": "Parcel-Experiments",
+  "version": "1.0.0",
+  "description": "Setting up a professional React project with Parcel as a code bundler",
+  "main": "index.js",
+  "repository": "https://github.com/goginim/Parcel-Experiments.git",
+  "author": "goginim <david.ingook@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.6.4",
+    "node-sass": "^4.9.1",
+    "parcel-bundler": "^1.9.4",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "typography": "^0.16.17"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
+  }
+}
